@@ -25,7 +25,7 @@ const Navbar = () => {
     <div className='flex flex-col items-center  '>
       <div className='w-full  bg-orange-300 h-20 flex items-center '>
         <div className='flex justify-between mx-auto  container '>
-          <div className='font-bold text-2xl'>PHANTOM </div>
+          <div className='font-semibold text-2xl'>PHANTOM </div>
           <div className=' flex justify-between'>
 
 
