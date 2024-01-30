@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* 
+
+i need a hidden the scroll bar on the right side of the all of the page
+*/
+
+::-webkit-scrollbar {
+  display: none;
+}
