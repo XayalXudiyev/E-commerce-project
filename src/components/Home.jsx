@@ -11,13 +11,9 @@ const Home = () => {
   return (
     <div className='bg-gray-100  '>
       <Hero />
-      <div className='flex-col mt-7 h-screen '>
-        <div className='   '>
+      <div className='flex-col mt-7 h- '>
           <Categories setCategory={setCategory} />
-        </div>
-        <div className=''>
           <Products category={category} />
-        </div>
       </div>
     </div>
   )
