@@ -7,7 +7,7 @@ const CartComponent = ({ cart }) => {
   const dispatch = useDispatch()
  
  const deleteProductFromcart =()=>{
-  dispatch(removeFromCart(cart?.id))
+  dispatch(removeFromCart(cart.id))
   window.location.reload();
  }
 
