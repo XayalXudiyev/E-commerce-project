@@ -5,7 +5,7 @@ const Product = ({ product }) => {
   const navigate = useNavigate();
   
   let truncatedTitle = product?.title;
-
+ 
   if (truncatedTitle.length > 15) {
     truncatedTitle = truncatedTitle.slice(0, 25) + '...';
   }

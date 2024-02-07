@@ -22,7 +22,6 @@ const DetailComponent = ({ productDetail }) => {
         window.location.reload();
     }
 
-    console.log(productDetail)
 
     return (
         <div>

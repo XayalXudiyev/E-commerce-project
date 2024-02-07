@@ -19,7 +19,7 @@ const Categories = ({ setCategory }) => {
     }
 
     return (
-        <div className=' flex justify-center items-center gap-32  container m-auto outline outline-[1px] outline-slate-100 bg-white  py-3 mb-'>
+        <div className=' flex justify-around items-center   container m-auto outline outline-[1px] outline-slate-100 bg-white  py-3 mb-'>
                  <button onClick={refresh} className='text-wrap  py-2 px-3  cursor-pointer capitalize  focus:bg-orange-300 rounded focus:text-white'>All Products</button>
                 {categories && categories.map((category, id) => (
                   
