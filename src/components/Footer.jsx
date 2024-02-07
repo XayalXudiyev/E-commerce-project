@@ -4,7 +4,8 @@ import { TEInput, TERipple } from 'tw-elements-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-orange-300 text-center text-white">
+    <footer className="bg-orange-300 text-center text-white mt-1">
+        
       <div className="container px-6 pt-6 mx-auto">
         <div className="mb-6 flex justify-center w-full">
 

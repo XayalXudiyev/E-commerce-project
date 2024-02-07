@@ -19,7 +19,7 @@ const CartComponent = ({ cart }) => {
         <div className='bg-slate-300 text-red-500'>{cart?.description}</div>
       </div>
       <div className='font-bold'>{cart?.price} AZN ({cart?.quantity})</div>
-      <div onClick={deleteProductFromcart} className='bg-red-500 text-white w-[180px] h-12 text-base flex items-center justify-center cursor-pointer rounded-md'><span>Delete Product</span></div>
+      <div onClick={deleteProductFromcart} className='bg-red-500 text-white w-[180px] h-12 text-base flex items-center justify-center cursor-pointer rounded-md '><span>Delete Product</span></div>
     </div>
   )
 }

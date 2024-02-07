@@ -19,7 +19,7 @@ const Cart = () => {
 
 
     return (
-        <div>
+        <div className='font-bold min-h-screen' >
             {
                 cartsFetch?.length > 0 ? <div>
                         {
@@ -27,12 +27,12 @@ const Cart = () => {
                                 <CartComponent key={i} cart={cart} />
                             ))
                         }
-                       <div className='flex justify-end'    >
-                       TOTAL : <span >{totalAmount}</span>
+                       <div className='flex justify-center'    >
+                       TOTAL  <span >:  {totalAmount} AZN </span>   
                        </div>
                     </div>
                     :
-                    <div className='text-red-800 font-bold text-2xl'> Empty Card</div>
+                    <div className='text-red-800 font-bold text-2xl text-center mt-10'> Empty Card</div>
             }
         </div>
     )

@@ -16,7 +16,7 @@ import SignUp from './components/SignUp';
 
 const App = () => {
   return (
-    <div className='select-none'>
+    <div className='select-none '>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
