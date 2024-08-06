@@ -1,2 +1,1 @@
-Redux-Tookit
-Tailwind
+# Prerequisites: Redux-Tookit Tailwind PNPM
